@@ -10,7 +10,7 @@ class Solution {
             if(n-1 > 0 && nums[n] == nums[n-1]) n = n-2;
             else return nums[n];
         }
-        return nums[p];
+        return nums[p]; // edge case where mid is the target [1,1,2,3,3] . here we can return the lower 
     }
 }
 
